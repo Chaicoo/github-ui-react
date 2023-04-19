@@ -15,13 +15,14 @@ export const Flex = styled.div`
 
 	> div {
 		margin-left: 24px;
+		margin-top: 24px;
 
 		> h1 {
 			font-size: 24px;
-			line-height: 1.25px;
 			font-weight: 600;
 			color: var(--gray-dark);
 			margin-bottom: 8px;
+			
 		}
 
 		> h2 {
@@ -30,11 +31,24 @@ export const Flex = styled.div`
 			font-weight: 300;
 		}
 	}
+
+	@media (min-width: 768px) {
+		flex-direction: column;
+		align-items: flex-start;
+
+		>div{
+			margin-left: 0;
+		}
+	}
 `;
 
 export const Avatar = styled.img`
 	width: 16%;
 	border-radius: 50%;
+
+	@media (min-width: 768px) {
+		width: 100%;
+	}
 `;
 
 export const Row = styled.ul`
