@@ -34,4 +34,13 @@ export const Container = styled.div`
 
 		width: 893px;
 	}
+
+	span{
+		font-size: 12px;
+		color: var(--link);
+		margin-top: -24px;
+		margin-left: 8px;
+		padding-bottom: 16px;
+		align-self: flex-start;	
+	}
 `;
