@@ -23,6 +23,10 @@ export const GlobalStyles = createGlobalStyle`
         list-style: none;
     }
 
+	svg{
+		margin-top: -3px;
+	}
+
     :root{
         --primary: #fff;
         --black: #1b1f23;

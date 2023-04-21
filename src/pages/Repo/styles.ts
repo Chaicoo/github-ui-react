@@ -87,7 +87,6 @@ export const LinkButton = styled.a`
 	>svg{
 		fill: var(--primary);
 		margin-right: 4px;
-		margin-top: -3px;
 	}
 `;
 
@@ -96,6 +95,7 @@ const IconCSS = css`
 	height: 16px;
 	fill: var(--icon);
 	flex-shrink: 0;
+	margin-top: -3px;
 `;
 
 export const RepoIcon = styled(RiBookMarkLine)`
