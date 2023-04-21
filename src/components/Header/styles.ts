@@ -29,10 +29,6 @@ export const SearchForm = styled.form`
 
 		&:focus {
 			width: 318px;
-
-			&::placeholder {
-				text-align: center;
-			}
 		}
 
 		transition: width 0.2s ease-out, color 0.2s ease-out; 
